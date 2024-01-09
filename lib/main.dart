@@ -2,7 +2,6 @@ import 'package:amirvdivar/post.dart';
 import 'package:flutter/material.dart';
 
 import 'categorys.dart';
-import 'newpages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,25 +30,25 @@ class MyApp extends StatelessWidget {
                 CategoryList(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post1(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post2(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post3(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post4(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post5(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post6(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post(),
+                Post7(),
                 Divider(color: Colors.black,
                   height: 10,),
               ],
@@ -68,6 +67,3 @@ class page1 extends StatelessWidget{
   }
 
 }
-
-
-
