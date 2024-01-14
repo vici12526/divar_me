@@ -69,7 +69,7 @@ class Category5 extends StatelessWidget{
     return const Column(
       children: [
         Icon(Icons.access_alarm_outlined),
-        Text('اجماس دیگر',
+        Text('اجناس دیگر',
             style:TextStyle(color:Colors.grey)),
       ],
     );

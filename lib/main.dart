@@ -39,31 +39,14 @@ class MyApp extends StatelessWidget {
                 Post3(),
                 Divider(color: Colors.black,
                   height: 10,),
-                Post4(),
-                Divider(color: Colors.black,
-                  height: 10,),
-                Post5(),
-                Divider(color: Colors.black,
-                  height: 10,),
-                Post6(),
-                Divider(color: Colors.black,
-                  height: 10,),
-                Post7(),
-                Divider(color: Colors.black,
-                  height: 10,),
               ],
             ),
           ),
-        ));
+          //اینجا نشد باتن نویگیشن بار رو اضافه کنم
+        )
+    );
 
   }
 }
-class page1 extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.cyan,
-    ) ;
-  }
 
-}
+
